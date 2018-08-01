@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- Favicons -->
+    <title>
+        KnackTech-Airport NOC
+    </title>
+ <!--     Fonts and icons and styles   -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="assets/font/font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/syon.min40a0.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <script src="assets/css/aos.js"></script>
+    <link rel="stylesheet" href="assets/css/hover.css">
+</head>
+
+<body class="profile-page">
+    
+    <nav class="navbar  bg-white   fixed-top  navbar-expand-lg" data-aos="fade-down" data-aos-duration="800" id="sectionsNav">
+            <div class="container">
+                <div class="navbar-translate">
+                    <a class="navbar-brand" href="index.html"> 
+                        <!-- <img style="max-width:200px;" src="imagename.png"> -->
+                    <b>KnackTech</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" >
+                    <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                    <a href="index.html#Home" class="nav-link" data-aos="fade-down" data-aos-duration="1100"  data-aos-delay="200">
+                                        <i class="material-icons">home</i> <strong>Home</strong>
+                                    </a>
+                                </li>
+                                <li class="dropdown nav-item">
+                                        <a href="#" class="dropdown-toggle nav-link" data-aos="fade-down" data-aos-duration="1200"  data-aos-delay="200" data-toggle="dropdown">
+                                            <i class="material-icons">apps</i> <strong>&nbsp;&nbsp; Services &nbsp;&nbsp;</strong>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-with-icons">
+                                            <a href="Airport.html" class="dropdown-item">
+                                                <i class="material-icons">local_airport</i> <strong>AIRPORT</strong> 
+                                            </a>
+                                            <a href="Fire.html" class="dropdown-item">
+                                                <i class="material-icons">whatshot</i> <strong>Fire</strong>
+                                            </a>
+                                            <a href="Environment.html" class="dropdown-item">
+                                                <i class="material-icons">wb_sunny</i> <strong>Environment</strong>
+                                                </a>
+                                            <a href="Rera.html" class="dropdown-item">
+                                                <i class="material-icons">business</i> <strong>Rera</strong>
+                                            </a>
+                                            <a href="Others.html" class="dropdown-item">
+                                                <i class="material-icons">filter_list</i> <strong>Other works</strong>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index.html#Profile" class="nav-link" data-aos="fade-down" data-aos-duration="1300"  data-aos-delay="200">
+                                            <i class="material-icons">info</i> <strong>Our Profile</strong>
+                                        </a>
+                                    </li>
+
+                                            <li class="nav-item">
+                                                    <a href="index.html#Contact" class="nav-link" data-aos="fade-down" data-aos-duration="1400"  data-aos-delay="200">
+                                                        <i class="material-icons">call</i> <strong>Contact Us</strong>
+                                                    </a>
+                                                </li>
+                                                <li class="button-container nav-item iframe-extern">
+                                                    <a href="Login.html" class="btn btn-sm  btn-success   btn-round btn-block" data-aos="fade-left" data-aos-duration="1200"  data-aos-delay="500">
+                                                        <i class="material-icons">lock</i> Login
+                                                    </a>                                  
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+    
+            <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/airport.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h1 class="title" data-aos="zoom-in" data-aos-duration="500"  data-aos-delay="300">Airport NOC</h1>
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="profile-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 ml-auto mr-auto">
+                                <div class="profile-tabs">
+                                    <ul class="nav nav-pills nav-pills-icons nav-pills-success justify-content-center" role="tablist">
+                                        <!--
+                              color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+                          -->
+                                        <li class="nav-item"  data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="400" data-aos-once="true">
+                                            <a class="nav-link active" href="#AirInfo" role="tab" data-toggle="tab">
+                                                <i class="material-icons">info</i> Information Guide
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="500" data-aos-once="true">
+                                            <a class="nav-link" href="#AirSample" role="tab" data-toggle="tab">
+                                                <i class="material-icons">assignment</i> NOC Sample
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="600" data-aos-once="true">
+                                            <a class="nav-link" href="#AirClients" role="tab" data-toggle="tab">
+                                                <i class="material-icons">people</i>&nbsp;&nbsp;&nbsp;&nbsp; Clients &nbsp;&nbsp;&nbsp;&nbsp;
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="700" data-aos-once="true">
+                                            <a class="nav-link" href="#AirFaq" role="tab" data-toggle="tab">
+                                                <i class="material-icons">view_list</i>&nbsp;&nbsp;&nbsp;&nbsp; FAQ's &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="800" data-aos-once="true">
+                                            <a class="nav-link" href="#AirQuery" role="tab" data-toggle="tab">
+                                                <i class="material-icons">notification_important</i> Have a Query
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content tab-space">
+                            <div class="tab-pane active work" id="AirInfo" data-aos="zoom-in" data-aos-duration="700"  data-aos-delay="800" data-aos-once="true">
+                                   
+                                    <div class="section section-text">
+                                            <h3 class="title text-center">Airports Authority of India</h3>
+                                            
+                                        <div class="row">
+                                            <div class="col-md-8 ml-auto mr-auto">
+                              
+                                                <p><b>Ministry of Civil Aviation, New Delhi, India with an opinion of necessity towards height restriction for
+                                                        safe guarding of aircraft operations at Civil and Defence Airports grant ‘No Objection Certificate’
+                                                        (NOC) through Airports Authority of India Act, 1994. Designated Officer from Airports Authority of
+                                                        India is authorised for process and issue of NOC which indicates the permissible height of
+                                                        construction for various structures.
+                                                </b></p>
+                                           <br>
+                                                <p><b>No structure shall be constructed or erected on any land within a radius not exceeding twenty
+                                                        kilometres from the Aerodrome Reference Point (ARP) of the civil and defence airports without
+                                                        obtaining a NOC for height clearance.
+                                                </b></p><br>
+                                                <p><b>The NOC with respect to civil airport shall be issued by the designated officer on behalf of the central
+                                                        government through an application to the No Objection Certificate Application System (NOCAS),
+                                                        accessible on the website of the Airports Authority at www.aai.aero. Hyderabad, Vijayawada and
+                                                        Rajahmundry enjoy civil airport privileges.
+                                                </b></p><br>
+                                                <p><b>The NOC with respect to defence airport shall be issued by the authorised officer in accordance with
+                                                        No Construction Zones (NCZ) and Obstacle Limitation Surfaces (OLS) subject to other conditions as
+                                                        the said authorised officer may deem fit. Since Visakhapatnam arise by defence, it’s airport is
+                                                        presumed as defence airport. As per AP Building Rules Ms. Go. No. 199 any Highrise building (18 mts
+                                                        above) from ground level require ‘No Objection Certificate’ (NOC).
+                                                </b></p><br>
+                                                <p><b>G.S.R. 751(E) is India’s Gazette Notification,   <a href="http://www.aai.aero" target="_blank">www.aai.aero</a> &amp;  <a href="http://nocas2.aai.aero/nocas/" target="_blank">nocas2.aai.aero/nocas/</a> are the relative
+                                                        websites for referral.
+                                                </b></p><br><br>
+                                              
+                                            </div>
+                                           </div>
+                                           </div>
+                                   </div>
+                   
+                            <div class="tab-pane AirSample" id="AirSample">
+                                    <div class="row">
+                                            <div class="col-lg-8 col-md-12 ml-auto mr-auto">
+
+                                                <ul class="nav nav-pills nav-pills-success justify-content-center">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#vsk" data-toggle="tab">Visakhapatnam</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#hyd" data-toggle="tab">Hyderabad</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#vjy" data-toggle="tab">Vijayawada</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#rjy" data-toggle="tab">Rajahmundry</a>
+                                                    </li>
+                                                   
+                                                </ul>
+                                                <div class="tab-content tab-space">
+                                                    <div class="tab-pane" id="hyd">
+                                                            <div class="section col-md-12 ml-auto mr-auto">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6 hvr-grow zoom" id='hydnoc1'>
+                                                                    <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/hyd/hydnoc1.jpg">
+                                                                           
+                                                                        </div>
+                                                                        <div class="col-md-6 hvr-grow zoom" id='hydnoc2'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/hyd/hydnoc2.jpg">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="vjy">
+                                                            <div class="section col-md-12 ml-auto mr-auto">
+                                                                    <div class="row">
+                                                                            <div class="col-md-6 hvr-grow zoom" id='vjynoc1'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/vjy/vijnoc3.jpg">
+                                                                        </div>
+                                                                        <div class="col-md-6 hvr-grow zoom" id='vjynoc2'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/vjy/vijnoc4.jpg">
+                                                                        </div>
+            
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="rjy">
+                                                            <div class="section col-md-12 ml-auto mr-auto">
+                                                                    <div class="row">
+                                                                            <div class="col-md-6 hvr-grow zoom" id='rjynoc1'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/rjy/rjynoc1.jpg">
+                                                                        </div>
+                                                                        <div class="col-md-6 hvr-grow zoom" id='rjynoc2'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/rjy/rjynoc2.jpg">
+                                                                        </div>
+            
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                    <div class="tab-pane active" id="vsk">
+                                                            <div class="section col-md-12 ml-auto mr-auto">
+                                                                    <div class="row">
+
+                                                                        <div class="col-md-6 hvr-grow zoom" id='vsknoc2'>
+                                                                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/vsk/vsknoc2.jpg">
+                                                                        </div>
+                                                                        <div class="col-md-6 hvr-grow zoom" id='vsknoc3'>
+                                                                                <img class="img-raised rounded img-fluid" alt="Raised Image" src="assets/img/noc/vsk/vsknoc3.jpg">
+                                                                            </div>
+            
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>        
+                            </div>
+
+
+                            
+
+ <!--     *********    Clients      *********      -->
+                            <div class="tab-pane AirClients" id="AirClients">
+
+ 
+<div class="container">
+    <h3 class="title text-center">Our Clients</h3>
+ <section class="customer-logos slider">
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/1.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/2.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/3.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/4.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/5.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/6.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/7.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/8.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/9.jpg"  alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/10.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/11.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/12.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/13.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+ </section>
+ </div>
+
+<div class="container">
+ <section class="customer-logos-reverse slider">
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/14.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/15.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/16.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/17.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/18.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/19.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/20.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/21.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/22.jpg" alt="Rounded Image" class="rounded img-fluid">        </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/23.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/24.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/25.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+    <div class="slide">   <img src="assets/img/kit/pro/airclients/26.jpg" alt="Rounded Image" class="rounded img-fluid">      </div>
+ </section>
+ </div>
+  
+
+
+<div class="row">
+<div class="col-md-6">
+ <table class="table" style="font-weight:bold">
+    <thead>
+      <tr><th style="font-weight:bold"><u>VISAKHAPATNAM</u></th></tr>
+    </thead>
+    <tbody>
+      <tr><td><i class="material-icons text-info">face</i> V Koteswara Rao</td><td> KR Constructions</td></tr>
+      <tr><td><i class="material-icons text-danger">face</i>Suresh Kumar Jain </td><td> Navaratna Estates </td></tr>
+      <tr><td><i class="material-icons text-primary">face</i> K Mallikharjuna Rao </td><td> Sri Laxmi Balaji Constructions </td></tr>
+      <tr><td><i class="material-icons text-success">face</i>  K Ramakrishna Rao  </td><td> MK Builders & Developers </td></tr>
+      <tr><td><i class="material-icons text-warning">face</i> MVV Satyanarayana </td><td> MVV & MK Housing </td></tr>
+      <tr><td><i class="material-icons text-info">face</i> G Pawan Kumar </td><td> Sun Venture & Investment Pvt Ltd </td></tr>
+       <tr><td><i class="material-icons text-success">face</i> G V Ramana Murthy </td><td> Global Entropolis Asia Pvt Ltd </td></tr>
+      <tr><td><i class="material-icons text-danger">face</i> B V Mohana Rao </td><td> GITAM – Hospital Building </td></tr>
+      <tr><td><i class="material-icons text-primary">face</i> AVRKS Srinivas Rao </td><td> Wellfare Buildings & Estates Pvt Ltd </td></tr>
+      <tr><td><i class="material-icons text-success">face</i> Dr. Suryadevara Sridhar </td><td>M/s. Vasugan Medical Specialities Pvt Ltd </td></tr>
+      <tr><td><i class="material-icons text-warning">face</i> U Raja </td><td>Kerneos Alluminate Technologies Pvt Ltd  </td></tr>
+      <tr><td><i class="material-icons text-info">face</i> Anthony Thumma </td><td> STBL Projects Ltd </td></tr>
+      <tr><td><i class="material-icons text-danger">face</i> K Umesh </td><td> Lansum Properties LLP (Oxygen Towers) </td></tr>
+      <tr><td><i class="material-icons text-primary">face</i> G Veerabhadra Rao </td><td> STBL Projects Ltd</td></tr>
+      <tr><td><i class="material-icons text-success">face</i> K Uttam Kumar Reddy</td><td> Northstar Homes</td></tr>
+       <tr><td><i class="material-icons text-warning">face</i> Gokaraju Subbaraju & Others </td><td> Vinayagar Promoters </td></tr>
+       <tr><td><i class="material-icons text-primary">face</i> Dr. K Ramamurthy </td><td>Pradhama Multispeciality Hospitals</td></tr>
+       <tr><td><i class="material-icons text-success">face</i> P Prabhakar Reddy </td><td>Viceroy Hotels </td></tr>
+       <tr><td><i class="material-icons text-warning">face</i> Prabhat Kumar </td><td>NTPC Ltd </td></tr>
+       <tr><td><i class="material-icons text-info">face</i> Chava Narasimha Rao</td><td> Laurus Labs Pvt Ltd </td></tr>
+       <tr><td><i class="material-icons text-danger">face</i> G Ramakrishna Rao </td><td> M/S. Siddhi Infracon Vizag Pvt Ltd </td></tr>
+       <tr><td><i class="material-icons text-primary">face</i> T Srinivasa Rao </td><td> Mythri Infra</td></tr>
+       <tr><td><i class="material-icons text-success">face</i> K Suman</td><td> Vijaya Medical Centre</td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> Achintya Chandra </td><td> Vesuvius India Ltd </td></tr>
+    
+    </tbody>
+  </table>
+</div>
+
+<div class="col-md-6">
+    <table class="table" style="font-weight:bold">
+       <thead>
+         <tr><th style="font-weight:bold"><u>VISAKHAPATNAM</u></th></tr>
+       </thead>
+       <tbody>
+        <tr><td><i class="material-icons text-success">face</i> K Raghu </td><td> Raghu Educational Society </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> Y Rajeswara Rao </td><td> Anil Neerukonda Educational Society </td></tr>
+        <tr><td><i class="material-icons text-primary">face</i> BV Mohana Rao </td><td> GITAM (Construction of Heliport) </td></tr>
+        <tr><td><i class="material-icons text-info">face</i> Bramha Kumari Shivaleela  </td><td> Prajapita Bramha Kumari’s Ishwariya Vishwa Vidyalaya </td></tr>
+        <tr><td><i class="material-icons text-danger">face</i> Suresh Kumar Khemka </td><td> Sri Ram Associates </td></tr>
+        <tr><td><i class="material-icons text-success">face</i> K Venkata Rama Bhadra Kumar Raju <br>&nbsp &nbsp &nbsp &nbsp & Others</td><td>Anjani Builders </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> MS Ramayya </td><td> MS Ramayya Constructions Pvt Ltd</td></tr>
+        <tr><td><i class="material-icons text-primary">face</i> K N Pardhasaradhi </td><td> Millennium Towers</td></tr>
+        <tr><td><i class="material-icons text-info">face</i> Deepak Kumar Tiwari</td><td> Bhukand Developers </td></tr>
+        <tr><td><i class="material-icons text-danger">face</i>A Buchiraju & Others </td><td> ABR Towers (Ritz Comfort)</td></tr>
+        <tr><td><i class="material-icons text-success">face</i> B Suresh Kumar </td><td> Hema Abodes Pvt Ltd </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> T Satyanarayana </td><td> Sai Ram Hospitalities </td></tr>
+        <tr><td><i class="material-icons text-primary">face</i>B Venkateswara Rao </td><td> Aparna Apartments
+            &
+            Adusha Towers
+            </td></tr>
+         <tr><td><i class="material-icons text-info">face</i> K Umesh </td><td>Lansum Properties LLP</td></tr>
+      
+        <tr><td><i class="material-icons text-info">face</i> P S Ramakrishna  </td><td> Blue Nile Developers Pvt Ltd </td></tr>
+        <tr><td><i class="material-icons text-danger">face</i> Kola Subramanyam </td><td> Waltair Uplands </td></tr>
+
+        <tr><td><i class="material-icons text-success">face</i> G Surya Prakash </td><td>Gangavaram Port Ltd </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i>P Venkatapathi Raju </td><td> Cosmic Holdings </td></tr>
+        <tr><td><i class="material-icons text-primary">face</i> N Appa Rao & Others</td><td> ARK Infra Avenues India Pvt Ltd </td></tr>
+        <tr><td><i class="material-icons text-info">face</i> P Padmavathi  </td><td> C Scape </td></tr>
+        <tr><td><i class="material-icons text-danger">face</i> T Soloman Raju </td><td> Narasimha Nagar </td></tr>
+        <tr><td><i class="material-icons text-success">face</i> V Ravi Kanth</td><td>Samudra Mahal </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> BS Umamaheswara Rao </td><td>Kurupam Market</td></tr>
+        <tr><td><i class="material-icons text-primary">face</i>D Ramachandra Raju </td><td> Ramya Constructions</td></tr>
+       
+      
+
+       </tbody>
+     </table>
+   </div> 
+
+  
+</div> 
+
+<div class="row">
+
+   <div class="col-md-6">
+    <table class="table" style="font-weight:bold">
+       <thead>
+         <tr><th style="font-weight:bold"><u>Rajahmundry </u></th></tr>
+       </thead>
+       <tbody>
+        <tr><td><i class="material-icons text-success">face</i> Hariram Hemdev </td><td> Manthina Gardens </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> Venkata Subba Rao Dandumenu </td><td> Postal Colony Block </td></tr>
+        <tr><td><i class="material-icons text-primary">face</i> Dr. L. Muralidhar </td><td> JN Road</td></tr>
+        <tr><td><i class="material-icons text-info">face</i> M Bindu Priya  </td><td> Venkateswara Nagar </td></tr>
+        <tr><td><i class="material-icons text-danger">face</i> J Padmaja Prasad </td><td>Jayakrishna Puram</td></tr>
+        <tr><td><i class="material-icons text-success">face</i> P Neelakanteswara Rao </td><td> Vadrevu Nagar </td></tr>
+        <tr><td><i class="material-icons text-warning">face</i> K Praveena </td><td> Kottagummam Junction </td></tr>
+        <tr><td><i class="material-icons text-info">face</i> Test  </td><td> Test 123 </td></tr>
+         </tbody>
+         </table>
+       </div>
+
+
+
+    <div class="col-md-6">
+        <table class="table" style="font-weight:bold">
+           <thead>
+             <tr><th style="font-weight:bold"><u>VIJAYAWADA</u></th></tr>
+           </thead>
+           <tbody>
+             <tr><td><i class="material-icons text-danger">face</i> Sharan Valluru </td><td>Pitchaiah Street </td></tr>
+             <tr><td><i class="material-icons text-success">face</i>Chekuri Jagannadha Raju </td><td> Gannavaram </td></tr>
+           <tr><td><i class="material-icons text-warning">face</i> N Srikanth Babu </td><td> N Srikanth Babu</td></tr>
+            <tr><td><i class="material-icons text-primary">face</i> GVNSS Prabhakar </td><td> Patamata</td></tr>
+            <tr><td><i class="material-icons text-info">face</i> Nandamuri Sasikala & Others </td><td> Gannavaram Village </td></tr>
+            <tr><td><i class="material-icons text-danger">face</i> Ch. V. Rama Raju </td><td>Beside Gannavaram Airport</td></tr>
+            <tr><td><i class="material-icons text-success">face</i> Yarlagadda Krishna Kumari </td><td> Gannavaram </td></tr>
+            <tr><td><i class="material-icons text-warning">face</i> M Madhusudhan Reddy </td><td> Penamaluru Mandal
+                Vijayawada
+                 </td></tr>
+       
+           </tbody>
+         </table>
+       </div>
+</div>
+       <div class="row">
+
+        <div class="col-md-6">
+         <table class="table" style="font-weight:bold">
+            <thead>
+              <tr><th style="font-weight:bold"><u>Hyderabad  </u></th></tr>
+            </thead>
+            <tbody>
+             <tr><td><i class="material-icons text-success">face</i> Vijay Kumar </td><td> INDMAX Infra Structure India Pvt Ltd </td></tr>
+     </tbody>
+     </table>
+     </div>
+     
+
+
+
+
+       
+</div>
+
+
+  </div>
+      <!--     *********    END Clients       *********      -->
+                                       
+                                   <div class="tab-pane AirQuery" id="AirQuery">
+                                   
+                                        <div class="section section-text">
+                                         
+                                            <div class="row">
+                                                <div class="col-md-8 ml-auto mr-auto">
+                                                        <form id="Airport-query" method="post">
+                                                                <div class="card-header card-header-plain text-center">
+                                                                    <h4 class="card-title">Send your Query to us</h4>
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group label-floating is-empty">
+                                                                                <label class="bmd-label-floating">First name..</label>
+                                                                                <input type="text" name="name" class="form-control" required="true">
+                                                                                <span class="material-input"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-6">
+                                                                            <div class="form-group label-floating is-empty">
+                                                                                <label class="bmd-label-floating">Last name..</label>
+                                                                                <input type="text" name="name" class="form-control">
+                                                                                <span class="material-input"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label class="bmd-label-floating">Email ID or Phone Number..</label>
+                                                                        <input type="text" name="email" class="form-control" required="true">
+                                                                        <span class="material-input"></span>
+                                                                    </div>
+                                                                    <div class="form-group label-floating is-empty">
+                                                                        <label for="exampleMessage1" class="bmd-label-floating">Your Message..</label>
+                                                                        <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                                                                        <span class="material-input"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-footer justify-content-between">
+                                                                    <div class="form-check">
+                                                                        <label class="form-check-label">
+                                                                            <input class="form-check-input" type="checkbox" value=""> I'm not a robot
+                                                                            <span class="form-check-sign">
+                                                                                <span class="check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </div>
+                                                                    <button type="submit" class="btn btn-success pull-right">Send Message</button>
+                                                                </div>
+                                                            </form>
+                                                </div>
+                                               </div>
+                                               </div>
+                                       </div>
+
+                            <div class="tab-pane text-left" id="AirFaq">
+                                <div class="row">
+                                    
+                                        <div class="col-md-10 col-sm-6 ml-auto mr-auto">
+                                                <h3 class="title text-center"> FAQ FOR SEEKING NOC FOR HEIGHT CLEARANCE </h3>
+                                                <h4 class="main-price text-center">Frequently Asked Questions (FAQ) provides easy answers to the applicant queries,
+                                                        seeking height clearance for the structures around airports, as well as illustrate the NOC
+                                                        application Procedure</h4>
+                                                <div id="accordion" role="tablist">
+                                                    <div class="card card-collapse">
+                                                        <div class="card-header" role="tab" id="heading01">
+                                                            <h5 class="mb-0">
+                                                                <a data-toggle="collapse" href="#collapse01" aria-expanded="true" aria-controls="collapse01">
+                                                                        Q.1. Why No Objection Certificate (NOC) for height clearance, to proposed structure
+                                                                        (building, communication mast, transmission line, Chimney etc.) in and around the airport is
+                                                                        required?
+                                                                    <i class="material-icons">keyboard_arrow_down</i>
+                                                                </a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapse01" class="collapse show" role="tabpanel" aria-labelledby="heading01" data-parent="#accordion">
+                                                            <div class="card-body">
+                                                                <p>Ans. <b>The effective use of an aerodrome may be considerably influenced by the natural
+                                                                        features and man-made construction inside and outside its boundary. These may result in
+                                                                        limitations on the distances available for take-off and landing and on the range of meteorological
+                                                                        conditions in which the take-off and landing can be undertaken. For these reasons certain areas
+                                                                        of the local airspace must be regarded as integral parts of the aerodrome environment. The
+                                                                        degree of freedom from obstacles in these areas is as important to the safe and efficient use of
+                                                                        the aerodrome as are the more obvious physical requirements on the runways and their
+                                                                        associated strips.</b></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card card-collapse">
+                                                            <div class="card-header" role="tab" id="heading02">
+                                                                <h5 class="mb-0">
+                                                                    <a class="collapsed" data-toggle="collapse" href="#collapse02" aria-expanded="false" aria-controls="collapse02">
+                                                                       Q.2. What is NOCAS?
+                                                                        <i class="material-icons">keyboard_arrow_down</i>
+                                                                    </a>
+                                                                </h5>
+                                                            </div>
+                                                            <div id="collapse02" class="collapse" role="tabpanel" aria-labelledby="heading02" data-parent="#accordion">
+                                                                <div class="card-body">
+                                                                       <p> Ans. <b>No Objection Certificate Application System (NOCAS) is an online system which is made
+                                                                        operational by AAI on 1 st April, 2011 for accepting online NOC application for height clearance in
+                                                                        respect of Buildings/Masts/Structures/Chimneys/Transmission Lines. NOCAS accepts
+                                                                        application only for the civil aerodromes.<br><br>
+                                                                        It also help the AAI NOC offices to process the application faster as it calculates permissible heights wrt the Aeronautical Ground Aids (AGA) and Communication Navigation Surveillance (CNS) facilities automatically. 
+                                                                      <br><br>
+                                                                        Applicants may access NOCAS on AAI website “www.aai.aero” by clicking through Apply/Track link or directly access the login page <a href="http://nocas.aai.aero/" target="_blank">http://nocas.aai.aero/</a>
+                                                                        
+                                                                    
+                                                                    </b></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading03">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse03" aria-expanded="false" aria-controls="collapse03">
+                                                                                Q.3.	How an applicant can access NOCAS for submitting online application? Why are we not able to open NOCAS application form?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse03" class="collapse" role="tabpanel" aria-labelledby="heading03" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>For submitting online NOCAS Application please go to the NOCAS Link on Airports Authority of India (http://www.aai.aero ). Guidelines and public information are there in the link.<br><br>
+                                                                            
+                                                You can submit online application through Apply/Track link of NOCAS Link at <a href="http://www.aai.aero" target="_blank">http://www.aai.aero</a>. NOCAS can be directly access through URL <a href="http://nocas.aai.aero/" target="_blank">http://nocas.aai.aero/</a>
+                                                <br><br>
+                                                Steps to submit successful NOC application:<br><br>
+                                                    1.	Create USER ID and Password from new User Link (fill up all the fields including landline no.)<br>
+                                                    2.	Log in, go to apply online/ Building then after filling all the information correctly as per the certificates / documents available with you.<br>
+                                                    3.	Ensure that all the information is provided including the owners noame, plot size email etc.<br>
+                                                    4.	Peruse the application and Submit online. NOC ID is generated. Take a printout of online submitted application.<br>
+                                                    5.	Submit all the required documents at nearest AAI airport.
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading04">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse04" aria-expanded="false" aria-controls="collapse04">
+                                                                                Q.4.	Who issues NOC height clearance for Civil and Defence airports?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse04" class="collapse" role="tabpanel" aria-labelledby="heading04" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>The Airports Authority of India issues the No Objection Certificate on behalf of Central Government in respect of All Civil Aerodromes in India including the State Government aerodromes and the Private aerodromes where civil commercial flights are operating.<br>
+
+                                                                                For Defence Aerodromes, No objection Certificate for height clearance is issued by respective defence authorities, in accordance with the notification and subject to any other restriction or condition which such authorities deemed fit.<br><br>
+                                                                                
+                                                                                Some of the Defence Authorities are:<br>
+                                                                                •	Indian Air Force<br>
+                                                                                •	Indian Navy<br>
+                                                                                •	Indian Coast Guard<br>
+                                                                                •	Hindustan Aeronautics Limited (HAL)<br>
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading05">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse05" aria-expanded="false" aria-controls="collapse05">
+                                                                                Q.5.	Which are the offices of AAI issuing NOC?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse05" class="collapse" role="tabpanel" aria-labelledby="heading05" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>No Objection certificates for Height Clearances for all the civil airports in India are issued by AAI regional NOC offices located at Delhi, Mumbai, Kolkata, Chennai, Guwahati. Regional NOC offices are responsible to safeguard all the civil aerodromes in their respective regions.
+                                                                                <br>
+                                                                                However, NOC offices located at Nagpur, Ahmedabad, Bangalore and Hyderabad airports issues NOC for the respective airports as well as the airports located closeby . 
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading06">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                                                                                Q.6.	What is the procedure of applying for NOC to AAI?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse06" class="collapse" role="tabpanel" aria-labelledby="heading06" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Applicants are required to submit their applications online through NOCAS on AAI website “www.aai.aero” by clicking through Apply/Track link or directly accessing the login page at http://nocas.aai.aero/.
+                                                                               <br>
+                                                                               After an online application is successfully submitted, a unique NOC ID is generated. The applicant shall submit the hardcopies of self-attested documents to the nearest AAI airport within 15 days of the online application.
+                                                                            <br>
+                                                                                The contact information related to the AAI airport may be accessed at <a href="http://www.aai.aero/" target="_blank">http://www/aai.aero/allAirports/airports.jsp</a>
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading07">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse07" aria-expanded="false" aria-controls="collapse07">
+                                                                                Q.7.	What are the documents required to apply for NOC of building and or other structure except fixed communication mast?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse07" class="collapse" role="tabpanel" aria-labelledby="heading07" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Following documents (hard copies) are to be submitted to the designated officer at the airport or the regional/station level NOC office;<br><br>
+                                                                                1.	Signed print out of submitted online NOC application with NOC ID.<br>
+                                                                                2.	Site Location Plan, duly approved and authenticated by the municipal authorities/Urban Development authority/ any other licensed authorized agency.<br>
+                                                                                3.	Surveyed Site Elevation and WGS-84 Coordinates (at least 7-digit in DD MM SS.s format) from a qualified professional or an agency, authorized for the purpose by the concerned Department/Unit/Local Body of the Government<br>
+                                                                                4.	Undertaking on Form 1A on a non-judicial stamp paper of Rs.10.<br><br>
+                                                                                
+                                                                                Two set of documents are to be filed at the nearest airport. The designated officer at the airport will scrutinize the application for its completeness and forward one copy of the documents to the Regional NOC office for processing and issue of NOC.<br>
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading08">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse08" aria-expanded="false" aria-controls="collapse08">
+                                                                                Q. 8.	I am still facing some NOCAS related problem. I forgot password. Who can help me? 
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse08" class="collapse" role="tabpanel" aria-labelledby="heading08" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>You may contact NOCAS technical team by emailing your specific problem to <a href="#" target="_blank">nocashelp@aai.aero</a>.<br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading09">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse09" aria-expanded="false" aria-controls="collapse09">
+                                                                                Q.9.	I have applied for NOC online recently, Can I start my construction work this time?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse09" class="collapse" role="tabpanel" aria-labelledby="heading09" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>No construction work shall be start before issue of NOC. Applicant submit an undertaking to this effect while applying for NOC. This provision is as per the clause 1 of SO84 E
+                                                                            <br><br>
+                                                                                “No building or structure shall be constructed or erected and no tree shall be planted on any land within the limits specified without obtaining “No Objection Certificate”.
+                                                                                
+                                                                                
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading10">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                                                                Q.10.	Up to what distance from airport an applicant has to obtain NOC for a building or mast?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Up to 20 KM for Visual Flight Rules (VFR) Airports and up to 56 KM for Instrument Flight Rules (IFR) Airports. Distance is measured from Aerodrome Reference Point (ARP) of nearest airport/s.
+                                                                                <br><br>
+                                                                                If the site is located beyond 20 KM of the VFR civil airport or 56 KM of IFR civil airport and if the height of the desired structure is below 150 M above ground level, then NOC for height clearance from AAI is not required.
+                                                                                
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading11">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                                                                Q.11.	From where can we get WGS-84 Co-ordinates?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>From a qualified professional or an agency, authorized for the purpose by the concerned Department/Unit/Local Body of the government, the applicant can get surveyed site coordinates in WGS-84 and site elevation in meters.
+                                                                                <br><br>
+                                                                                Without the appropriate coordinates in WGS-84 and the sit elevation, submission of application will not be possible.
+                                                                                
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div> 
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading12">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                                                                Q.12.	What are the fees for NOC?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>There is no fee for applying and obtaining NOC. <br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div> 
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading13">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                                                                Q.13.	Do all the construction around airport require NOC for height clearance?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Structure of any type like Buildings/Masts/Structures/Chimneys/Transmission Lines requires the NOC from AAI within specified area mentioned above.<br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div> 
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading14">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                                                                Q.14.	I have submitted my application online, can I know whether it is ok.
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Although there are certain validation checks, applicants are advised to take extra care while filling their applications through NOCAS, and should check carefully that all rows and columns are filled accurately. Incomplete applications are liable to be rejected.
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div> 
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading15">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                                                                Q.15.	Can I modify the application after online submission?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse15" class="collapse" role="tabpanel" aria-labelledby="heading15" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Yes, the applicant can modify the NOCAS application till it remain in APPLIED state. However, once the application is submitted to the nearest airport and progressed further, system will not allow to modify it.<br>
+                                                                            Applicant shall take due care to fill the data correctly as per the available documents and certificates before submit the online application.<br>
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading16">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                                                                Q.16.	What is the validity of NOC?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse16" class="collapse" role="tabpanel" aria-labelledby="heading16" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>The validity of NOC in respect of building shall be 05 (Five) years and the validity for Chimney/Transmission Lines/Masts shall be 07 (Seven) years from the date of issue.<br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading17">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                                                                Q.17.	What is the process of revalidation of NOC?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse17" class="collapse" role="tabpanel" aria-labelledby="heading17" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Applicant may apply for revalidation of NOC if the construction work is either completed or is in progress. The NOC shall be revalidated for such a period so as not to exceed the total period of 8 years for buildings and 12 years for Masts/Chimneys/Transmission Lines, from the date of initial issue.
+                                                                            <br><br>
+                                                                                An undertaking on form 1C (Annexure 1C in the guidelines) shall be submitted by the applicant, along with revalidation application.
+                                                                                <br><br>  
+                                                                                However, if the construction has not started within the validity period, NOC validity will not be extended. The applicant may apply for fresh NOC and the permissible top elevation will be re-assessed by the concerned Designated Officer of AAI before issue of revised NOC.
+                                                                                <br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading18">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                                                                Q.18.	Who issues NOC for Defence airports?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse18" class="collapse" role="tabpanel" aria-labelledby="heading18" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>For Defence Aerodromes, various Defence Authorities, such as Indian Air Force, Indian Navy, Coast Guard and HAL etc., issue No Objection certificate and may also subject to any other restrictions or conditions which such authorities may deem fit.
+
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading19">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                                                                Q.19.	Who can provide us the required WGS-84 co-ordinates and elevation certificates for the proposed site?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse19" class="collapse" role="tabpanel" aria-labelledby="heading19" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Applicant can get surveyed site coordinates in WGS-84 and site elevation in meters from a qualified professional or an agency, authorized for the purpose by the concerned Department/Unit/Local Body of the Government.
+
+                                                                            <br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading20">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                                                                Q.20.	Should I file multiple or single coordinate of the plot and/or of the structure?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse20" class="collapse" role="tabpanel" aria-labelledby="heading20" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>For Building Case: Surveyed Site Elevation & Coordinates in ( at least 7 digits DD MM SS.s) WGS-84 in degree, minutes and seconds of all prominent corners of the site/plot or the structure, as the case may be, from a qualified professional or an agency, authorized for the purpose by the concerned Department/Unit/Local Body of the Government.
+                                                                               <br><br>
+                                                                               For Masts, Pole, Chimney and Transmission Lines: Surveyed Site Elevation & Coordinates of the center of the site in at least 7 digits (DD MM SS.s) WGS-84 from a qualified professional or an agency, authorized for the purpose by the concerned Department/Unit/Local Body of the Government.
+                                                                               <br>
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading21">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                                                                Q.21.	Can user know the status of his application?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Yes, user can check his/her status through Apply/Track window on AAI wesite through his log in.<br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>   
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading22">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                                                                Q.22.	Can I get any information whether my application is accepted or rejected?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse22" class="collapse" role="tabpanel" aria-labelledby="heading22" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>After submission online application, applicant should submit required documents at the respective NOC office or the nearest AAI office, where applicant may know about initial position of his/her application including the completeness of documents.
+                                                                               <br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div> 
+                                                        <div class="card card-collapse">
+                                                                <div class="card-header" role="tab" id="heading23">
+                                                                    <h5 class="mb-0">
+                                                                        <a class="collapsed" data-toggle="collapse" href="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                                                                Q.23.	For how many structures applicant can apply in single application?
+                                                                            <i class="material-icons">keyboard_arrow_down</i>
+                                                                        </a>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapse23" class="collapse" role="tabpanel" aria-labelledby="heading23" data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                           <p> Ans. <b>Application can apply NOC for a plot where the multiple structures are planned or apply for a single structure. For a large plot, it is advisable to apply for individual structures or sub-divide the plot and apply separately for subdivided plot.<br>
+                                                                               <br>
+                                                                   
+                                
+                                                                        
+                                                                        </b></p>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer footer-black">
+        <div class="container">
+            <a class="footer-brand" href="#pablo">KnackTech</a>
+            <ul class="pull-center">
+                <li>
+                    <a href="#pablo">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="#pablo">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+            <ul class="social-buttons float-right">
+                <li>
+                    <a href="#" target="_blank" class="btn btn-just-icon btn-link">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="btn btn-just-icon btn-link">
+                        <i class="fa fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="btn btn-just-icon btn-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+    <!-- FOOTER END -->
+
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/bootstrap-material-design.min.js"></script>
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="assets/js/plugins/bootstrap-selectpicker.js"></script>
+
+<!-- Plugins for presentation and navigation  -->
+<script src="assets/assets-for-demo/js/modernizr.js"></script>
+<!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+<script src="assets/js/syon.min40a0.js"></script>
+
+<script src='assets/css/jquery.zoom.js'></script>
+<script src="assets/js/plugins/slick.js"></script>
+<script>
+AOS.init({
+easing: 'ease-in-out-sine'
+});
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#hydnoc1').zoom({ on:'click' });
+        $('#hydnoc2').zoom({ on:'click' });	
+        $('#vjynoc1').zoom({ on:'click' });	
+        $('#vjynoc2').zoom({ on:'click' });	
+        $('#rjynoc1').zoom({ on:'click' });	
+        $('#rjynoc2').zoom({ on:'click' });	
+        $('#vsknoc1').zoom({ on:'click' });
+        $('#vsknoc2').zoom({ on:'click' });	
+        $('#vsknoc3').zoom({ on:'click' });			
+    });
+</script>
+	<style>
+
+
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+
+		#ex2 img:hover { cursor: url(grab.cur), default; }
+		#ex2 img:active { cursor: url(grabbed.cur), default; }
+    </style>
+
+
+
+
+
+<script>
+
+       $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 800,
+        arrows: false,
+        dots: false,
+        speed: 1800,
+        infinite: true,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+
+
+ $('.customer-logos-reverse').slick({
+         slidesToShow: 5,
+         slidesToScroll: -3,
+         autoplay: true,
+         autoplaySpeed: 800,
+         arrows: false,
+         dots: false,
+         speed: 2000,
+         infinite: true,
+         pauseOnHover: false,
+         responsive: [{
+             breakpoint: 768,
+             settings: {
+                 slidesToShow: 3
+             }
+         }, {
+             breakpoint: 520,
+             settings: {
+                 slidesToShow: 2
+             }
+         }]
+     });
+
+});    
+    </script>
+
+  
+
+</body>
+
+</html>
